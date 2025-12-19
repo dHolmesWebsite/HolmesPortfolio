@@ -1,0 +1,339 @@
+/*
+Theme Name: HolmesPortfolio Child
+Theme URI: https://portfolio.holmeswebsite.co.uk/
+Description: A child theme of holmes-portfolio
+Author: Holmes
+Author URI: https://portfolio.holmeswebsite.co.uk/
+Template: holmesportfolio
+Version: 1.0.0
+Text Domain: holmesportfolio-child
+*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~THEME*/
+.header,
+.background-footer,
+.footer-widgets {
+  background: linear-gradient(135deg, #8aebff, #2999af);
+}
+
+.post-card {
+  background: linear-gradient(135deg, #c8f4fd, #7bcddd);
+}
+
+.content-area a.post-card-link {
+  text-decoration: none !important;
+}
+
+.navbar ul > li a {
+  background-color: #48cae4;
+  /* Darker shade similar above & Match 6 */
+}
+
+.dot.active,
+.dot:hover,
+.submenu_container {
+  background: linear-gradient(135deg, #288a9e, #3dd6f5) !important;
+  /* Darker shade similar above & Match 6 */
+}
+
+.prevhw,
+.nexthw {
+  background: linear-gradient(135deg, #c8f4fd, #7bcddd) !important;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  color: rgb(0, 0, 0) !important;
+}
+
+.prevhw:hover,
+.nexthw:hover {
+  background: linear-gradient(135deg, #288a9e, #3dd6f5) !important;
+  transition: all 0.1s ease-in-out;
+  color: #ffffff !important;
+}
+
+.navbar-wrapper {
+  background-color: #1d7d91;
+  /* Darker shade similar above & Match 6 */
+}
+
+th,
+td,
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input,
+.comment-form-comment textarea,
+.search-field,
+.post-filter-form select#filter-category {
+  border-color: #014a58;
+  /*Match #3 */
+}
+
+.added_to_cart,
+.wc-block-cart__submit-container a {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.added_to_cart:hover .wc-block-cart__submit-container a:hover {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #288a9e, #3dd6f5) !important;
+}
+
+.added_to_cart,
+.wc-block-components-button,
+.wc-block-cart__submit-container,
+.single_add_to_cart_button.button.alt,
+.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained,
+.wp-block-button__link.add_to_cart_button.ajax_add_to_cart,
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart,
+.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained,
+.holmes-button,
+.button.wc-forward,
+.contactus-button input[type="button"],
+#scrollTop,
+.submit[type="submit"],
+.form-submit input[type="submit"],
+.back_button,
+.back_button_search,
+.wp-block-button .wp-block-button__link {
+  /*Match #3 */
+  background: linear-gradient(135deg, #c8f4fd, #7bcddd) !important;
+  color: #000000 !important;
+  border: 1px solid #014a58 !important;
+  padding: 0.5em 0.8em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.menu-toggle {
+  background: linear-gradient(135deg, #c8f4fd, #7bcddd);
+  color: #000000 !important;
+  border: 1px solid #014a58 !important;
+  padding: 12px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.menu-toggle-icon {
+  background-color: #000000 !important;
+  /*black */
+}
+
+.menu-toggle:hover,
+.menu-toggle[aria-expanded="true"] {
+  color: #000000 !important;
+  /*hover */
+  background: linear-gradient(135deg, #288a9e, #3dd6f5);
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-toggle:hover .menu-toggle-icon,
+.menu-toggle[aria-expanded="true"] .menu-toggle-icon {
+  background-color: #ffffff !important;
+  /*Match white */
+}
+
+.added_to_cart:hover,
+.wc-block-components-button:hover,
+.wc-block-cart__submit-container:hover,
+.single_add_to_cart_button.button.alt:hover,
+.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained:hover,
+.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained:hover,
+.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover,
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover,
+.button.wc-forward:hover,
+.navbar ul > li a:hover,
+.navbar li.current-menu-ancestor > a,
+.form-submit input[type="submit"]:hover,
+.holmes-button:hover,
+.contactus-button input[type="button"]:hover,
+#scrollTop:hover,
+.submit[type="submit"]:hover,
+.submenu_container a:hover,
+.back_button:hover,
+.back_button_search:hover,
+.wp-block-button .wp-block-button__link:hover,
+.added_to_cart:focus-visible,
+.wc-block-components-button:focus-visible,
+.wc-block-cart__submit-container:focus-visible,
+.single_add_to_cart_button.button.alt:focus-visible,
+.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained:focus-visible,
+.components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained:focus-visible,
+.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:focus-visible,
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:focus-visible,
+.button.wc-forward:focus-visible,
+.navbar ul > li a:focus-visible,
+.form-submit input[type="submit"]:focus-visible,
+.holmes-button:focus-visible,
+.contactus-button input[type="button"]:focus-visible,
+#scrollTop:focus-visible,
+.submit[type="submit"]:focus-visible,
+.submenu_container a:focus-visible,
+.back_button:focus-visible,
+.back_button_search:focus-visible,
+.wp-block-button .wp-block-button__link:focus-visible {
+  /*hover */
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #288a9e, #3dd6f5) !important;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+/*hover */
+.navbar .current-menu-item > a,
+.submenu_container .current-menu-item > a {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #288a9e, #3dd6f5);
+  transition: all 0.1s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.slogan,
+.tagline,
+.first-line,
+.archive_description,
+.slogan,
+.site-name,
+li::marker,
+.hw-read-more {
+  color: #620499 !important;
+  /*Match #3 */
+}
+
+.post-card:hover::after {
+  background-color: #1d7d91;
+}
+
+.entry-tags {
+  font-weight: bold !important;
+  color: #333 !important;
+}
+
+.entry-tags a,
+.page-numbers,
+.entry-content a,
+.footer-widgets a,
+.footer-content a,
+.breadcrumbs,
+.comment-reply-link {
+  color: #620499;
+  font-weight: bold;
+}
+
+.entry-tags a:hover,
+.footer-widgets a:hover,
+.terms-conditions a:hover,
+.credits a:hover,
+.social-links-right img:hover,
+.entry-content a:hover,
+.entry-footer a:hover,
+.entry-header a:hover,
+.breadcrumbs a:hover {
+  /*hover */
+  background-color: #ffffff;
+  color: #1d7d91;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.559) !important;
+}
+.navbar > ul > li > a,
+.submenu_container ul li a,
+.sub-menu a,
+#navbar > ul > li:after {
+  background: linear-gradient(135deg, #8aebff, #2999af);
+  color: #000000 !important;
+  border: 1px solid #014a58 !important;
+  padding: 12px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+*:focus-visible,
+.search-field:focus-visible,
+.submenu_container a:focus-visible,
+.navbar ul > li a:focus-visible,
+.sub-menu ul > li a:focus-visible,
+.post-card-link:focus-visible .entry-title {
+  outline: 5px solid #ce13c4 !important;
+  z-index: 9999;
+}
+
+.page-numbers.current,
+.page-numbers:hover {
+  background-color: #ffffff !important;
+  /*hover */
+  color: #1d7d91 !important;
+  font-weight: bold !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  text-decoration: none !important;
+}
+
+#filter-category:hover {
+  background-color: #ffffffa1 !important;
+  /*hover */
+  color: #000000 !important;
+  font-weight: bold !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  text-decoration: none !important;
+}
+
+.widget,
+.policy-links {
+  background-color: #ffffff75;
+}
+
+.site-main {
+  background-color: #ffffff75;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.center-items {
+  text-align: center;
+}
+
+@keyframes fadeInUpSmooth {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.post-card {
+  animation: fadeInUpSmooth 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity, filter;
+}
+
+.entry-tags-wrapper {
+  margin: 20px 10px 0;
+  padding-top: 10px;
+  position: relative;
+}
+
+.entry-tags-wrapper::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #000000, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~THEME*/

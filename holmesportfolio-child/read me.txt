@@ -1,0 +1,5 @@
+to create a custom post page to display one category type,
+
+make the page have the same slug as the category.
+
+and select template type 'category types'
