@@ -1,47 +1,55 @@
-# My First Major WordPress Theme Project
+## Developed Theme  
+### My First Major WordPress Theme Project
 
-A custom WordPress theme built with accessibility and performance in mind, following **WCAG 2.1 AA** guidelines.
+This project is my first large-scale WordPress theme and the biggest one I’ve worked on so far.
 
-## 🚀 Features
+The theme was built from scratch with a strong focus on accessibility and performance, following **WCAG 2.1 AA** guidelines. The aim was to create a reusable base theme that could be adapted for future websites, with most changes handled through styling rather than rewriting functionality.
 
-- **WCAG AA–compliant theme**
-  - Accessible HTML structure
-  - Keyboard-navigable components
-  - ARIA attributes where appropriate
-  - High-contrast, readable CSS
+## Features
 
-- **Custom Admin Menu Options (PHP)**
-  - Theme-specific settings in the WordPress admin
+- WCAG AA–compliant theme structure
+- Semantic and accessible HTML
+- Keyboard navigation across menus and interactive elements
+- ARIA attributes added where required
+- High-contrast, readable CSS styles
 
-- **Mega Menu**
-  - Responsive mega menu layout
-  - Built using HTML, CSS, and JavaScript
-  - Fully keyboard accessible
-  Main files can be found here:
-   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/js/mega-menu.js
-   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/css/mega-menu.css
-   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/header.php
+### Custom Admin Menu Options (PHP)
+- Theme-specific settings added to the WordPress admin
+- Allows content and layout control without relying on plugins
 
-## 🛠 Tech Stack
+### Mega Menu
+- Responsive mega menu built with HTML, CSS, and vanilla JavaScript
+- Fully keyboard accessible
+- Designed to work with screen readers
 
-- **WordPress**
-- **PHP**
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
+Main files related to the mega menu:
+- JavaScript:  
+  https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/js/mega-menu.js
+- CSS:  
+  https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/css/mega-menu.css
+- PHP / Markup:  
+  https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/header.php
 
-## 🎯 Project Goals
+## Tech Stack
 
-- Build a production-ready WordPress theme from scratch, that can be reused as a shell to others 
-- Follow real-world accessibility standards (WCAG AA)  
-- Avoid over-reliance on plugins  
-- Keep the codebase readable and maintainable
+- WordPress
+- PHP
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-## 📦 Status
+## Project Goals
 
-🚧 In active development
+- Build a production-ready WordPress theme from the ground up
+- Create a reusable theme structure that can act as a base for future projects
+- Follow real-world accessibility standards (WCAG AA)
+- Reduce reliance on third-party plugins
+- Keep the codebase clear, readable, and maintainable
 
-## 📄 License
+## Status
+
+In active development.
+
+## License
 
 https://holmesportfolio.co.uk/hwlicense
-
