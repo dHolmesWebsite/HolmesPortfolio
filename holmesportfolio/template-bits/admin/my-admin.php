@@ -2,15 +2,15 @@
 
 /**
  * Theme Name: holmesportfolio
- * Theme URI: https://portfolio.holmeswebsite.co.uk
+ * Theme URI: https://holmesportfolio.co.uk/
  * Description: A theme designed with accessibility in mind
  * Author: David Holmes
- * Author URI: https://portfolio.holmeswebsite.co.uk
+ * Author URI: https://holmesportfolio.co.uk/
  * Requires PHP: 7
  * Tested up to: 6.5
  * Version: 4.3
  * License: holmesportfolio Commercial License
- * License URI: https://portfolio.holmeswebsite.co.uk/hwlicense
+ * License URI: https://holmesportfolio.co.uk/hwlicense
  * Text Domain: holmesportfolio
  *
  * @package holmesportfolio
@@ -82,7 +82,7 @@ function custom_dashboard_page()
 			<li><a href="admin.php?page=social-media-settings">Social media settings</a></li>
 		</ul>
 
-		<li><a class="URL_tutorial" href="https://portfolio.holmeswebsite.co.uk/theme-setup/" target="_blank">Theme tutorial</a></li>
+		<li><a class="URL_tutorial" href="https://holmesportfolio.co.uk/theme-setup/" target="_blank">Theme tutorial</a></li>
 	</div>
 
 	<h3 class="admin-text">Knowledge check</h3>
@@ -97,11 +97,11 @@ function custom_dashboard_page()
 		<li>Choose accessible colours for text and backgrounds</li>
 	</ul>
 
-	<a class="URL_admin" href="https://portfolio.holmeswebsite.co.uk/accessibility/" target="_blank">Read more about accessibility</a>
-	<a class="URL_admin" href="mailto:david@portfolio.holmeswebsite.co.uk?subject=Report%20accessibility%20issue" target="_blank">Report identified accessibility issues with this theme</a>
+	<a class="URL_admin" href="https://holmesportfolio.co.uk/accessibility/" target="_blank">Read more about accessibility</a>
+	<a class="URL_admin" href="mailto:david@holmesportfolio.co.uk?subject=Report%20accessibility%20issue" target="_blank">Report identified accessibility issues with this theme</a>
 
 	<div class="logo_admin">
-		<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/HolmesWebsite-logo.jpg'); ?>" alt="HolmesWebsite logo">
+		<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/holmesportfolio-logo.jpg'); ?>" alt="holmesportfolio logo">
 	</div>
 
 	<br>

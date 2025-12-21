@@ -1,14 +1,14 @@
 /**
 * Theme Name: holmesportfolio
-* Theme URI: https://portfolio.holmeswebsite.co.uk
+* Theme URI: https://holmesportfolio.co.uk/
 * Description: A theme designed with accessibility in mind
 * Author: David Holmes
-* Author URI: https://portfolio.holmeswebsite.co.uk
+* Author URI: https://holmesportfolio.co.uk/
 * Requires PHP: 7
 * Tested up to: 6.5
 * Version: 4.3
 * License: holmesportfolio Commercial License
-* License URI: https://portfolio.holmeswebsite.co.uk/hwlicense
+* License URI: https://holmesportfolio.co.uk/hwlicense
 * Text Domain: holmesportfolio
 *
 * @package holmesportfolio
@@ -24,7 +24,7 @@
     height: auto;
     font-weight: bold;
     color: #005ea5;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: Arial, sans-serif;
   }
 }
 
@@ -37,7 +37,7 @@
     height: auto;
     font-weight: bold;
     color: #005ea5;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: Arial, sans-serif;
   }
 }
 
@@ -80,7 +80,7 @@
 .back_button {
   text-decoration: none;
   font-weight: bold;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .info-box a:hover,
@@ -121,13 +121,13 @@
 .Other-text {
   font-weight: bold;
   color: #000000 !important;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
 label {
   color: #08497a;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -165,7 +165,7 @@ label {
   font-size: 18px !important;
   font-weight: bold;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif !important;
+  font-family: Arial, sans-serif !important;
   text-align: center;
   padding: 40px;
 }
@@ -173,7 +173,7 @@ label {
 .style_admin a:hover {
   background-color: #2c3e50 !important;
   color: #ffffff !important;
-  font-family: "Roboto", Arial, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
 
 .style_admin h1,
@@ -183,7 +183,7 @@ label {
   font-weight: bold;
   margin-bottom: 0.5rem !important;
   color: #005ea5;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 24px;
 }
 
@@ -195,13 +195,13 @@ label {
   padding: auto;
   font-size: 16px !important;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
 
 .hdadmin .button-primary:hover {
   background-color: #2c3e50 !important;
   color: #ffffff !important;
-  font-family: "Roboto", Arial, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
 
 .slider-container {

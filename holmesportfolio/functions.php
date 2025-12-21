@@ -2,50 +2,39 @@
 
 /**
  * Theme Name: holmesportfolio
- * Theme URI: https://portfolio.holmeswebsite.co.uk/
+ * Theme URI: https://holmesportfolio.co.uk/
  * Description: A theme designed with accessibility in mind
  * Author: David Holmes
- * Author URI: https://portfolio.holmeswebsite.co.uk/
+ * Author URI: https://holmesportfolio.co.uk/
  * Requires PHP: 8
  * Tested up to: 6.5
  * Version: 5
  * License: holmesportfolio Commercial License
- * License URI: https://portfolio.holmeswebsite.co.uk//hwlicense
+ * License URI: https://holmesportfolio.co.uk/hwlicense
  * Text Domain: holmesportfolio
  *
  * @package holmesportfolio
  */
 
-/*
- * Font License
- *
- * This theme uses a font licensed under the Apache License, Version 2.0:
- *
- * Apache License
- * Version 2.0, January 2004
- * https://www.apache.org/licenses/
- *
- * TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
- */
 
-// function wp_maintenance_mode() {
-// if ( !current_user_can( 'edit_themes' ) || !is_user_logged_in() ) {
-// $logo_url = esc_url(get_template_directory_uri() . '/template-bits/admin/HolmesWebsite-logo.jpg');
-// wp_die(
-//     '<h1>Under Maintenance</h1>
-//     <p>Our website is changing,<br>
-//     <img src="' . $logo_url . '" alt="HolmesWebsite logo" style="width:200px;height:auto;"><br>
-//     Please check back. Target date 10/2/2026</p>',
-//     'Maintenance',
-//     array(
-//         'title'    => 'Maintenance', 
-//         'response' => 503,
-//     )
-// );
-// }
-// }
-// add_action('get_header', 'wp_maintenance_mode');
+function wp_maintenance_mode() {
+if ( !current_user_can( 'edit_themes' ) || !is_user_logged_in() ) {
+$logo_url = esc_url(get_template_directory_uri() . '/template-bits/admin/holmesportfolio-logo.jpg');
+wp_die(
+    '<h1>Under Maintenance</h1>
+    <p>Our website is changing,<br>
+    <img src="' . $logo_url . '" alt="Holmesportfolio logo" style="width:200px;height:auto;"><br>
+    Please check back. Target date 10/2/2026</p>',
+    'Maintenance',
+    array(
+        'title'    => 'Maintenance', 
+        'response' => 503,
+    )
+);
+}
+}
+add_action('get_header', 'wp_maintenance_mode');
 
 
 
@@ -380,74 +369,6 @@ function holmes_customize_register($wp_customize)
 	$wp_customize->remove_control('display_header_text');
 }
 add_action('after_setup_theme', 'holmes_setup');
-
-
-function add_custom_fonts_css()
-{
-	// font file paths
-	$font_regular_path = get_template_directory() . '/assets/fonts/Roboto-Regular.ttf';
-	$font_bold_path    = get_template_directory() . '/assets/fonts/Roboto-Bold.ttf';
-	$font_italic_path  = get_template_directory() . '/assets/fonts/Roboto-Italic.ttf';
-
-	// Debug font file paths
-	error_log('Font Regular Path: ' . $font_regular_path);
-	error_log('Font Bold Path: ' . $font_bold_path);
-	error_log('Font Italic Path: ' . $font_italic_path);
-
-	$custom_css     = '';
-	$error_messages = array();
-
-	if (file_exists($font_regular_path)) {
-		$custom_css .= "
-            @font-face {
-                font-family: 'Roboto';
-                src: url('$font_regular_path') format('truetype');
-            }
-        ";
-	} else {
-		$error_messages[] = 'Error: Font file Roboto-Regular.ttf not found.';
-	}
-
-	if (file_exists($font_bold_path)) {
-		$custom_css .= "
-            @font-face {
-                font-family: 'RobotoBold';
-                src: url('$font_bold_path') format('truetype');
-                font-weight: bold;
-                font-style: normal;
-            }
-        ";
-	} else {
-		$error_messages[] = 'Error: Font file Roboto-Bold.ttf not found.';
-	}
-
-	if (file_exists($font_italic_path)) {
-		$custom_css .= "
-            @font-face {
-                font-family: 'RobotoItalic';
-                src: url('$font_italic_path') format('truetype');
-                font-weight: italic;
-                font-style: normal;
-            }
-        ";
-	} else {
-		$error_messages[] = 'Error: Font file Roboto-Italic.ttf not found.';
-	}
-
-	wp_add_inline_style('custom-style-handle', $custom_css);
-
-	// Output error messages
-	if (! empty($error_messages)) {
-		echo '<div class="error-messages">';
-		foreach ($error_messages as $error_message) {
-			echo '<div class="error-message">' . $error_message . '</div>';
-		}
-		echo '</div>';
-	}
-}
-
-
-add_action('wp_enqueue_scripts', 'add_custom_fonts_css');
 
 
 // error messages & files

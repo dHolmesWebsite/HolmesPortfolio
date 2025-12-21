@@ -2,15 +2,15 @@
 
 /**
  * Theme Name: holmesportfolio
- * Theme URI: https://portfolio.holmeswebsite.co.uk/
+ * Theme URI: https://holmesportfolio.co.uk/
  * Description: A theme designed with accessibility in mind
  * Author: David Holmes
- * Author URI: https://portfolio.holmeswebsite.co.uk/
+ * Author URI: https://holmesportfolio.co.uk/
  * Requires PHP: 8
  * Tested up to: 6.5
  * Version: 5
  * License: holmesportfolio Commercial License
- * License URI: https://portfolio.holmeswebsite.co.uk//hwlicense
+ * License URI: https://holmesportfolio.co.uk/hwlicense
  * Text Domain: holmesportfolio
  *
  * @package holmesportfolio

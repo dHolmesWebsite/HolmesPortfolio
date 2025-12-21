@@ -6,18 +6,18 @@ Tested up to: WordPress 6.5
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: holmesportfolio License
-License URI: https://portfolio.holmeswebsite.co.uk//hwlicense
-Theme URI: https://portfolio.holmeswebsite.co.uk/
+License URI: https://holmesportfolio.co.uk/hwlicense
+Theme URI: https://holmesportfolio.co.uk/
 Author: Holmes
-Author URI: https://portfolio.holmeswebsite.co.uk/
+Author URI: https://holmesportfolio.co.uk/
 
 == Description ==
 
-HolmesWebsite is a beautiful and responsive WordPress theme designed for individuals, creatives, and small businesses. It comes with a fully responsive layout, customizable color schemes, and SEO-friendly markup. With a clean and modern design, holmesportfolio is perfect for creating stunning websites for portfolios, personal blogs, and professional landing pages.
+holmesportfolio is a beautiful and responsive WordPress theme designed for individuals, creatives, and small businesses. It comes with a fully responsive layout, customizable color schemes, and SEO-friendly markup. With a clean and modern design, holmesportfolio is perfect for creating stunning websites for portfolios, personal blogs, and professional landing pages.
 
 == Installation ==
 
-1. Upload the `HolmesWebsite` folder to the `/wp-content/themes/` directory.
+1. Upload the `holmesportfolio` folder to the `/wp-content/themes/` directory.
 2. Activate the theme through the 'Themes' menu in WordPress.
 3. Customize the theme settings by navigating to Appearance > Customize.
 4. Create and customize your website content using the WordPress editor and theme options.
@@ -53,17 +53,17 @@ Yes, holmesportfolio is licensed under the holmesportfolio License, which allows
 
 == Support ==
 
-If you have any questions or need assistance with holmesportfolio, please feel free to contact us at support@holmeswebsite.co.uk. We're here to help you make the most out of your WordPress theme.
+If you have any questions or need assistance with holmesportfolio, please feel free to contact us at support@holmesportfolio.co.uk. We're here to help you make the most out of your WordPress theme.
 
 == Credits ==
 
-HolmesWebsite was created by David Holmes. Special thanks to all open-source contributors and the WordPress community.
+holmesportfolio was created by David Holmes. Special thanks to all open-source contributors and the WordPress community.
 
 == License ==
 
 /**
 * Template Name: holmesportfolio v4.3
-* Template URL: https://portfolio.holmeswebsite.co.uk/
+* Template URL: https://holmesportfolio.co.uk/
 * Author: Holmes
 * License: Copyright © holmesportfolio 2024
 All rights reserved.

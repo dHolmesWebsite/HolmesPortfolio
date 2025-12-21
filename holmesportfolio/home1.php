@@ -17,9 +17,9 @@
 		<h2 class="wp-block-heading has-text-align-center">About us:</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:media-text {"mediaId":274,"mediaLink":"holmeswebsite","mediaType":"image","mediaWidth":22,"mediaSizeSlug":"medium"} -->
+		<!-- wp:media-text {"mediaId":274,"mediaLink":"holmesportfolio","mediaType":"image","mediaWidth":22,"mediaSizeSlug":"medium"} -->
 		<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:22% auto">
-			<figure class="wp-block-media-text__media"><img src="holmeswebsite" alt="" class="wp-image-274 size-medium" /></figure>
+			<figure class="wp-block-media-text__media"><img src="holmesportfolio" alt="" class="wp-image-274 size-medium" /></figure>
 			<div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…"} -->
 				<p><strong>I'm a paragraph, with an Image to replace to the left</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit, nisi sed consequat lobortis, ex enim iaculis eros, vel fringilla ipsum enim ut mi. <br><br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br>Vestibulum at nisi quis risus scelerisque vestibulum. Proin non risus luctus, gravida lectus non, faucibus nisl. Cras efficitur, velit eget fermentum blandit, massa mi interdum urna, nec consectetur libero orci nec sapien. Sed efficitur bibendum massa vitae cursus. Integer fermentum velit ut justo gravida ultrices.</p>
 				<!-- /wp:paragraph -->
@@ -37,13 +37,13 @@
 		<h2 class="wp-block-heading has-text-align-center">Products:</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:media-text {"mediaPosition":"right","mediaId":276,"mediaLink":"holmeswebsite","mediaType":"image","mediaWidth":22,"mediaSizeSlug":"medium"} -->
+		<!-- wp:media-text {"mediaPosition":"right","mediaId":276,"mediaLink":"holmesportfolio","mediaType":"image","mediaWidth":22,"mediaSizeSlug":"medium"} -->
 		<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 22%">
 			<div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…"} -->
 				<p><strong>I'm a paragraph, with an Image to replace to the right</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit, nisi sed consequat lobortis, ex enim iaculis eros, vel fringilla ipsum enim ut mi. <br><br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br>Vestibulum at nisi quis risus scelerisque vestibulum. Proin non risus luctus, gravida lectus non, faucibus nisl. Cras efficitur, velit eget fermentum blandit, massa mi interdum urna, nec consectetur libero orci nec sapien. Sed efficitur bibendum massa vitae cursus. Integer fermentum velit ut justo gravida ultrices.</p>
 				<!-- /wp:paragraph -->
 			</div>
-			<figure class="wp-block-media-text__media"><img src="holmeswebsite" alt="" class="wp-image-276 size-medium" /></figure>
+			<figure class="wp-block-media-text__media"><img src="holmesportfolio" alt="" class="wp-image-276 size-medium" /></figure>
 		</div>
 		<!-- /wp:media-text -->
 	</div>
@@ -54,7 +54,7 @@
 <!-- wp:columns {"className":"inline-squares"} -->
 <div class="wp-block-columns inline-squares"><!-- wp:column {"style":{"color":{"background":"#ebebeb"}},"className":"square1"} -->
 	<div class="wp-block-column square1 has-background" style="background-color:#ebebeb"><!-- wp:image {"id":273,"aspectRatio":"1","scale":"cover","sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded"} -->
-		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmeswebsite" alt="" class="wp-image-273" style="aspect-ratio:1;object-fit:cover" />
+		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmesportfolio" alt="" class="wp-image-273" style="aspect-ratio:1;object-fit:cover" />
 			<figcaption class="wp-element-caption">Image to replace</figcaption>
 		</figure>
 		<!-- /wp:image -->
@@ -75,7 +75,7 @@
 
 	<!-- wp:column {"className":"square2"} -->
 	<div class="wp-block-column square2"><!-- wp:image {"id":271,"aspectRatio":"1","scale":"cover","sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded"} -->
-		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmeswebsite" alt="" class="wp-image-271" style="aspect-ratio:1;object-fit:cover" />
+		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmesportfolio" alt="" class="wp-image-271" style="aspect-ratio:1;object-fit:cover" />
 			<figcaption class="wp-element-caption">Image to replace</figcaption>
 		</figure>
 		<!-- /wp:image -->
@@ -96,7 +96,7 @@
 
 	<!-- wp:column {"style":{"color":{"background":"#ebebeb"}},"className":"square3"} -->
 	<div class="wp-block-column square3 has-background" style="background-color:#ebebeb"><!-- wp:image {"id":272,"aspectRatio":"1","scale":"cover","sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded"} -->
-		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmeswebsite" alt="" class="wp-image-272" style="aspect-ratio:1;object-fit:cover" />
+		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmesportfolio" alt="" class="wp-image-272" style="aspect-ratio:1;object-fit:cover" />
 			<figcaption class="wp-element-caption">Image to replace</figcaption>
 		</figure>
 		<!-- /wp:image -->
@@ -117,7 +117,7 @@
 
 	<!-- wp:column {"className":"square4"} -->
 	<div class="wp-block-column square4"><!-- wp:image {"id":271,"aspectRatio":"1","scale":"cover","sizeSlug":"medium","linkDestination":"none","className":"is-style-rounded"} -->
-		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmeswebsite" alt="" class="wp-image-271" style="aspect-ratio:1;object-fit:cover" />
+		<figure class="wp-block-image size-medium is-style-rounded"><img src="holmesportfolio" alt="" class="wp-image-271" style="aspect-ratio:1;object-fit:cover" />
 			<figcaption class="wp-element-caption">Image to replace</figcaption>
 		</figure>
 		<!-- /wp:image -->
@@ -144,9 +144,9 @@
 		<h2 class="wp-block-heading has-text-align-center">Contact us:</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:media-text {"mediaId":126,"mediaLink":"holmeswebsite","mediaType":"image","mediaWidth":22} -->
+		<!-- wp:media-text {"mediaId":126,"mediaLink":"holmesportfolio","mediaType":"image","mediaWidth":22} -->
 		<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:22% auto">
-			<figure class="wp-block-media-text__media"><img src="holmeswebsite" alt="" class="wp-image-126 size-full" /></figure>
+			<figure class="wp-block-media-text__media"><img src="holmesportfolio" alt="" class="wp-image-126 size-full" /></figure>
 			<div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…"} -->
 				<p><strong>I'm a paragraph, with an Image to replace to the left</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit, nisi sed consequat lobortis, ex enim iaculis eros, vel fringilla ipsum enim ut mi. <br><br>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br>Vestibulum at nisi quis risus scelerisque vestibulum. Proin non risus luctus, gravida lectus non, faucibus nisl. Cras efficitur, velit eget fermentum blandit, massa mi interdum urna, nec consectetur libero orci nec sapien. Sed efficitur bibendum massa vitae cursus. Integer fermentum velit ut justo gravida ultrices.</p>
 				<!-- /wp:paragraph -->

@@ -2,15 +2,15 @@
 
 /**
  * Theme Name: holmesportfolio
- * Theme URI: https://portfolio.holmeswebsite.co.uk/
+ * Theme URI: https://holmesportfolio.co.uk/
  * Description: A theme designed with accessibility in mind
  * Author: David Holmes
- * Author URI: https://portfolio.holmeswebsite.co.uk/
+ * Author URI: https://holmesportfolio.co.uk/
  * Requires PHP: 7
  * Tested up to: 6.5
  * Version: 4.3
  * License: holmesportfolio Commercial License
- * License URI: https://portfolio.holmeswebsite.co.uk//hwlicense
+ * License URI: https://holmesportfolio.co.uk/hwlicense
  * Text Domain: holmesportfolio
  *
  * @package holmesportfolio
@@ -38,11 +38,11 @@ get_header();
 		<div class="center-items">
 			<form method="get" class="search-form" action="">
 				<label class="screen-reader-text" for="s">
-					<?php echo esc_html__('Search for:', 'holmeswebsite'); ?>
+					<?php echo esc_html__('Search for:', 'holmesportfolio'); ?>
 				</label>
 				<input type="text" placeholder="Search" value="<?php echo get_search_query(); ?>" name="s" id="s" class="search-field" />
 
-				<button type="submit" id="searchsubmit" class="submit search-submit" aria-label="<?php esc_attr_e('Search', 'holmeswebsite'); ?>">
+				<button type="submit" id="searchsubmit" class="submit search-submit" aria-label="<?php esc_attr_e('Search', 'holmesportfolio'); ?>">
 					<span class="search-icon"></span>
 				</button>
 			</form>
@@ -93,8 +93,8 @@ get_header();
 	<div class="pagination-wrapper">
 		<?php
 		echo wp_kses_post(paginate_links([
-			'prev_txt' => __('« Previous', 'holmeswebsite'),
-			'next_txt' => __('Next »', 'holmeswebsite'),
+			'prev_txt' => __('« Previous', 'holmesportfolio'),
+			'next_txt' => __('Next »', 'holmesportfolio'),
 		]));
 		?>
 	</div>

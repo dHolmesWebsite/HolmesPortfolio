@@ -1,14 +1,14 @@
 /**
 * Theme Name: holmesportfolio
-* Theme URI: https://portfolio.holmeswebsite.co.uk
+* Theme URI: https://holmesportfolio.co.uk/
 * Description: A theme designed with accessibility in mind
 * Author: David Holmes
-* Author URI: https://portfolio.holmeswebsite.co.uk
+* Author URI: https://holmesportfolio.co.uk/
 * Requires PHP: 7
 * Tested up to: 6.5
 * Version: 4.3
 * License: holmesportfolio Commercial License
-* License URI: https://portfolio.holmeswebsite.co.uk/hwlicense
+* License URI: https://holmesportfolio.co.uk/hwlicense
 * Text Domain: holmesportfolio
 *
 * @package holmesportfolio
@@ -27,7 +27,7 @@
   padding: 5px 5px;
   font-size: 16px;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   font-weight: bold;
   overflow-wrap: break-word;
 }
@@ -35,7 +35,7 @@
 .orderby {
   font-weight: bold;
   margin-bottom: 1rem;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 .post-filter-form,
@@ -86,7 +86,7 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -135,7 +135,7 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   transition: background-color 0.3s ease;
 }
 
@@ -312,7 +312,7 @@ li::marker {
 }
 
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -377,7 +377,7 @@ body {
 }
 
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   line-height: 1.6;
   color: #000000;
   background-color: #f5f5f5;
@@ -392,7 +392,7 @@ h6,
 .label {
   font-weight: bold;
   margin-bottom: 1rem;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 h1 {
@@ -549,7 +549,7 @@ tr:hover {
 .logo {
   font-weight: bold;
   color: #005ea5;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 .header-searchbar {
@@ -569,7 +569,7 @@ tr:hover {
 .slogan,
 .tagline {
   font-weight: bold;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -577,7 +577,7 @@ tr:hover {
   top: 20px;
   font-weight: bold;
   font-size: 24px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 @media (max-width: 650px) {
@@ -731,7 +731,7 @@ tr:hover {
 .comment-reply-link {
   text-decoration: underline !important;
   font-weight: bold !important;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   border: none;
   background: none;
   font-size: 1.1em;
@@ -740,7 +740,7 @@ tr:hover {
 .back_button,
 .back_button_search {
   font-weight: bold !important;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   border: none;
   background: none;
   font-size: 1.1em;
@@ -893,7 +893,7 @@ tr:hover {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
   transition: background-color 0.3s ease;
 }
 
@@ -928,7 +928,7 @@ tr:hover {
   border: 3px solid;
   font-weight: bold;
   font-size: 16px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 .bottom_container {
@@ -1239,7 +1239,7 @@ tr:hover {
 .filtertypes option {
   font-weight: bold;
   margin-bottom: 1rem;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 .posts-grid {

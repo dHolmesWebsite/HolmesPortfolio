@@ -2,15 +2,15 @@
 
 /**
  * Theme Name: holmesportfolio
- * Theme URI: https://portfolio.holmeswebsite.co.uk
+ * Theme URI: https://holmesportfolio.co.uk/
  * Description: A theme designed with accessibility in mind
  * Author: David Holmes
- * Author URI: https://portfolio.holmeswebsite.co.uk
+ * Author URI: https://holmesportfolio.co.uk/
  * Requires PHP: 7
  * Tested up to: 6.5
  * Version: 4.3
  * License: holmesportfolio Commercial License
- * License URI: https://portfolio.holmeswebsite.co.uk/hwlicense
+ * License URI: https://holmesportfolio.co.uk/hwlicense
  * Text Domain: holmesportfolio
  *
  * @package holmesportfolio
@@ -79,7 +79,7 @@ function custom_colour_page()
 			?>
 		</form>
 		<div class="logo_admin">
-			<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/holmeswebsite-logo.jpg'); ?>" alt="HolmesWebsite logo">
+			<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/holmesportfolio-logo.jpg'); ?>" alt="holmesportfolio logo">
 		</div>
 	</div>
 
@@ -101,7 +101,7 @@ function custom_layout_page()
 			?>
 		</form>
 		<div class="logo_admin">
-			<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/holmeswebsite-logo.jpg'); ?>" alt="HolmesWebsite logo">
+			<img src="<?php echo esc_url(get_template_directory_uri() . '/template-bits/admin/holmesportfolio-logo.jpg'); ?>" alt="holmesportfolio logo">
 		</div>
 	</div>
 
