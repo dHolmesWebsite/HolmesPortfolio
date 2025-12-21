@@ -17,7 +17,10 @@ A custom WordPress theme built with accessibility and performance in mind, follo
   - Responsive mega menu layout
   - Built using HTML, CSS, and JavaScript
   - Fully keyboard accessible
-  - Screen-reader friendly
+  Main files can be found here:
+   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/js/mega-menu.js
+   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/assets/css/mega-menu.css
+   - https://github.com/dHolmesPortfolio/HolmesPortfolio/blob/main/holmesportfolio/header.php
 
 ## 🛠 Tech Stack
 
