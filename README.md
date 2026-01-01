@@ -1,18 +1,16 @@
-###A WordPress Theme Project.
+###A WordPress Theme Project
 
-The theme was built from scratch with a strong focus on accessibility and performance, following **WCAG 2.1 AA** guidelines. The aim was to create a reusable base theme that could be adapted for future websites.
+The theme was built from scratch with a strong focus on web accessibility, following **WCAG 2.1 AA** guidelines. The aim was to create a reusable base theme that could be adapted for future websites.
 
 ###Features
 
-- WCAG AA–compliant theme structure
-- Semantic and accessible HTML
-- Keyboard navigation across menus and interactive elements
+- WCAG AA–compliant theme
+- Keyboard navigation across menus and other elements
 - ARIA attributes added where required
-- High-contrast, readable CSS styles
 
 ###Custom Admin Menu Options (PHP)
 
-- Theme-specific settings added to the WordPress admin
+- Theme-specific settings added to the WordPress admin area
 - Allows extra content and layout control without relying on plugins (social - media links, business button, styling options)
 
 ###Mega Menu
